@@ -1,9 +1,10 @@
 ﻿using BlazorApp3.Data;
+using BlazorApp3.Interfaces;
 using System.Net.Http.Json;
 
 namespace BlazorApp3.Services
 {
-    public class PersonService
+    public class PersonService : IPersonService
     {
         private readonly HttpClient _http;
         public PersonService(HttpClient http)
