@@ -1,0 +1,30 @@
+﻿@page "/PersonsList"
+@inject HttpClient Http;
+@inject IPersonService PersonService;
+
+<h3>PersonsList</h3>
+
+<table class="table">
+    <thead>
+        <th>id</th>
+        <th>name</th>
+        <th>age</th>
+    </thead>
+    <tbody>
+        @foreach (var man in PersonService.people)
+        {
+                <tr>
+                    <td>@man.Id</td>
+                    <td>@man.name</td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await PersonService.GetPerson();
+    }
+}

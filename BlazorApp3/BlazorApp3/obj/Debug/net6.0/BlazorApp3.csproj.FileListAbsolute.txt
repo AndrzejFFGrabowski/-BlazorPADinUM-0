@@ -822,3 +822,9 @@ C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplik
 C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3\obj\Debug\net6.0\refint\BlazorApp3.dll
 C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3\obj\Debug\net6.0\BlazorApp3.pdb
 C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3\obj\Debug\net6.0\ref\BlazorApp3.dll
+C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3\obj\Debug\net6.0\build-gz\rZjSPbuK.gz
+C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3\obj\Debug\net6.0\BlazorApp3.RazorAssemblyInfo.cache
+C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3\obj\Debug\net6.0\BlazorApp3.RazorAssemblyInfo.cs

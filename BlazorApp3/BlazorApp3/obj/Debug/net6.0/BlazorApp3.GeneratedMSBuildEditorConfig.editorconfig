@@ -10,7 +10,7 @@ build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorApp3
 build_property.RootNamespace = BlazorApp3
 build_property.ProjectDir = C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3\
-build_property.RazorLangVersion = 6.0
+build_property.RazorLangVersion = 2.1
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\DELL\Desktop\Andrzej\rzeczy_na_studia\rok3\semestr5\Programowanie Aplikaci mobilnych i webowych\repo2\BlazorApp3\BlazorApp3
@@ -32,6 +32,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL/Desktop/Andrzej/rzeczy_na_studia/rok3/semestr5/Programowanie Aplikaci mobilnych i webowych/repo2/BlazorApp3/BlazorApp3/Pages/PersonsList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uc0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/Andrzej/rzeczy_na_studia/rok3/semestr5/Programowanie Aplikaci mobilnych i webowych/repo2/BlazorApp3/BlazorApp3/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Desktop/Andrzej/rzeczy_na_studia/rok3/semestr5/Programowanie Aplikaci mobilnych i webowych/repo2/BlazorApp3/BlazorApp3/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL/Desktop/Andrzej/rzeczy_na_studia/rok3/semestr5/Programowanie Aplikaci mobilnych i webowych/repo2/BlazorApp3/BlazorApp3/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -39,11 +51,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/DELL/Desktop/Andrzej/rzeczy_na_studia/rok3/semestr5/Programowanie Aplikaci mobilnych i webowych/repo2/BlazorApp3/BlazorApp3/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/DELL/Desktop/Andrzej/rzeczy_na_studia/rok3/semestr5/Programowanie Aplikaci mobilnych i webowych/repo2/BlazorApp3/BlazorApp3/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-3jp0yu1nwo
-
-[C:/Users/DELL/Desktop/Andrzej/rzeczy_na_studia/rok3/semestr5/Programowanie Aplikaci mobilnych i webowych/repo2/BlazorApp3/BlazorApp3/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-ftoi7zkzwr
