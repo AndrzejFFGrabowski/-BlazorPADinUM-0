@@ -5,7 +5,7 @@ namespace BlazorApp3.Data
 {
     public class Database
     {
-        static string filePath = "C:/test.json";
+        static string filePath = "sample-data/weather.json";
         public static async Task WriteTextAsync(List<Person> persons)
         {
 
@@ -39,6 +39,10 @@ namespace BlazorApp3.Data
 
                 return result;
             }
+        }
+        public void func()
+        {
+            int x = 3 + 1;
         }
     }
 }

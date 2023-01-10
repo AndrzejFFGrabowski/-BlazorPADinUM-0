@@ -1,12 +1,10 @@
-﻿@page "/persondata"
+﻿@page "/personnew"
 @using BlazorApp3.Data
 @using Newtonsoft.Json;
 @using System.Text;
 @inject HttpClient Http
-<PageTitle>Weather forecast</PageTitle>
 
-<h1>Person List</h1>
-
+<h3>PersonNew</h3>
 <div>
     <div class="row">
         <div class="col-md-4">
@@ -25,43 +23,13 @@
     </div>
 </div>
 
-@if (persons == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Temp. (C)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in persons)
-            {
-                <tr>
-                    <td>@forecast.Id</td>
-                    <td>@forecast.name</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-
-
 
 @code {
-    private List<Person> persons=new List<Person>();
-    private string idString="";
+    private List<Person> persons = new List<Person>();
+    private string idString = "";
     private string nameString = "";
     private int id;
 
-    protected override async Task OnInitializedAsync()
-    {
-        persons = await Http.GetFromJsonAsync<List<Person>>("sample-data/weather.json");
-    }
     private async void addPerson()
     {
         if (int.TryParse(idString, out id))
@@ -70,10 +38,21 @@ else
             {
                 Person person = new Person(id, nameString);
                 persons.Add(person);
+                WriteTextAsync();
             }
         }
     }
+    private async void WriteTextAsync()
+    {
 
+        string text = JsonConvert.SerializeObject(persons, Formatting.Indented);
+        byte[] encodedText = Encoding.Unicode.GetBytes(text);
 
-
+        using (FileStream sourceStream = new FileStream("sample-data/weather.json",
+            FileMode.Create, FileAccess.Write, FileShare.None,
+            bufferSize: 4096, useAsync: true))
+        {
+            await sourceStream.WriteAsync(encodedText, 0, encodedText.Length);
+        };
+    }
 }
