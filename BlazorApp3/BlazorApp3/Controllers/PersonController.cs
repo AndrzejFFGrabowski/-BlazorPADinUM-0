@@ -1,13 +1,24 @@
-﻿using System.Web.Mvc;
+﻿using BlazorApp3.Data;
+using Microsoft.AspNetCore.Mvc;
+//using System.Web.Mvc;
 
 namespace BlazorApp3.Controllers
 {
-
+    [Route("api/[controller]")]
     public class PersonController : ControllerBase
     {
-        protected override void ExecuteCore()
+        public static List<Person> persons = new List<Person>();
+        public PersonController() { }
+
+        [HttpGet]
+        public async Task<ActionResult<List<Person>>> GetPerson()
         {
-            throw new NotImplementedException();
+            //var res = await Http.GetJsonAsync<List<Person>>("/data");
+
+            //(HttpMethod.Post, "/api/Customer",< List<Person>>("data.json");
+            persons = await Database.ReadTextAsync();
+            return Ok(persons);
         }
+
     }
 }
