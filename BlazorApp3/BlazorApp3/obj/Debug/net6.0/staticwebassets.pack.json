@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\manifest.json"
     },
     {
+      "Id": "C:\\Users\\DELL\\Desktop\\Andrzej\\rzeczy_na_studia\\rok3\\semestr5\\Programowanie Aplikaci mobilnych i webowych\\repo2\\BlazorApp3\\BlazorApp3\\wwwroot\\sample-data\\test.json",
+      "PackagePath": "staticwebassets\\sample-data\\test.json"
+    },
+    {
       "Id": "C:\\Users\\DELL\\Desktop\\Andrzej\\rzeczy_na_studia\\rok3\\semestr5\\Programowanie Aplikaci mobilnych i webowych\\repo2\\BlazorApp3\\BlazorApp3\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },

@@ -1,10 +1,45 @@
-﻿@page "/PersonList"
+﻿@page "/personlist"
 @using BlazorApp3.Data
-@using BlazorApp3.Interfaces;
-@inject IPersonService PersonService;
-
+@using BlazorApp3.Interfaces
+@inject HttpClient Http
 <h3>PersonList</h3>
 
+@if (people == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+<table class="table">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var man in people)
+        {
+            <tr>
+                <td>@man.Id</td>
+                <td>@man.name</td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
 @code {
+    private Check[]? people;
+    protected override async Task OnInitializedAsync()
+    {
+        people = await Http.GetFromJsonAsync<Check[]>("sample-data/test.json");
+        //await PersonService.GetPerson();
+    }
+    public class Check
+    {
+        public int Id { get; set; }
 
+        public string? name { get; set; }
+        
+    }
 }

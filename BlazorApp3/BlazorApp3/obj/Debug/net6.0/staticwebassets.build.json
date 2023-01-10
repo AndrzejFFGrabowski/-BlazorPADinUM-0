@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ubp8lLPlMB6269vnPH1o257znHkk+bsbLyD0tHGipyU=",
+  "Hash": "IgRx7Niqv5npNb/sEVw2HPHj+uyyCDbNwUF0E++u2Ps=",
   "Source": "BlazorApp3",
   "BasePath": "/",
   "Mode": "Root",
@@ -8141,6 +8141,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manifest.json"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Andrzej\\rzeczy_na_studia\\rok3\\semestr5\\Programowanie Aplikaci mobilnych i webowych\\repo2\\BlazorApp3\\BlazorApp3\\wwwroot\\sample-data\\test.json",
+      "SourceId": "BlazorApp3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Andrzej\\rzeczy_na_studia\\rok3\\semestr5\\Programowanie Aplikaci mobilnych i webowych\\repo2\\BlazorApp3\\BlazorApp3\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "sample-data/test.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample-data\\test.json"
     },
     {
       "Identity": "C:\\Users\\DELL\\Desktop\\Andrzej\\rzeczy_na_studia\\rok3\\semestr5\\Programowanie Aplikaci mobilnych i webowych\\repo2\\BlazorApp3\\BlazorApp3\\wwwroot\\sample-data\\weather.json",

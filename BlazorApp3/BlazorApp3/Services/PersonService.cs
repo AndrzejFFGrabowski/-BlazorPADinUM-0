@@ -12,10 +12,10 @@ namespace BlazorApp3.Services
             _http = http;
         }
         public List<Person> people { get; set; } = new List<Person>();
-        private const string uri = "https://localhost:7205/api/Person";
+        private const string uri = "https://localhost:7238/api/Person";
         public async Task GetPerson()
         {
-            var result = await _http.GetFromJsonAsync<List<Person>>(uri);
+            var result = await _http.GetFromJsonAsync<List<Person>>("sample-data/test.json");
             if (result != null)
                 people = result;
         }

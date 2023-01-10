@@ -17,7 +17,7 @@ namespace BlazorApp3
         private static void ConfigureServices(WebAssemblyHostBuilder builder)
         {
             builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-            builder.Services.AddSingleton<IPersonService, PersonService>();
+            //builder.Services.AddSingleton<IPersonService, PersonService>();
         }
 
         private static void Configure(WebAssemblyHostBuilder builder)
