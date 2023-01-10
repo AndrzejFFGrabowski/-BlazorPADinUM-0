@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Components.Web;
+﻿using BlazorApp3.Interfaces;
+using BlazorApp3.Services;
+using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
 namespace BlazorApp3
@@ -14,7 +16,8 @@ namespace BlazorApp3
         }
         private static void ConfigureServices(WebAssemblyHostBuilder builder)
         {
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddSingleton<IPersonService, PersonService>();
         }
 
         private static void Configure(WebAssemblyHostBuilder builder)

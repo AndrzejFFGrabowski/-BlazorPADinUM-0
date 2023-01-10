@@ -4,4 +4,5 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
 
 var builder = Startup.InitializeApp(args);
-await builder.Build().RunAsync();
+var app = builder.Build();
+await app.RunAsync();
